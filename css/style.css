@@ -10,12 +10,18 @@
 * 	Template Style 
 *
 * ======================================================= */
-
+.studio-one-slogan{
+    margin-left: 0.7em;
+}
 li{
     font-size: 1.2em;
 }
 .studio-one-profile .profile-photo{
     width: 17em;
+}
+
+.studio-one-profile .profile-details{
+    margin-left: 1.3em;
 }
 
 
@@ -32,7 +38,7 @@ hr{
     border: 2px solid black;
 }
 body {
-  font-family: "Open Sans", arial, sans-serif;
+  font-family: 'Julius Sans One', serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -60,6 +66,7 @@ body:before, body:after {
   z-index: 100;
 }
 @media screen and (max-width: 768px) {
+ 
   body:before, body:after {
     display: none;
   }
@@ -71,6 +78,9 @@ body:after {
   bottom: 0;
 }
 @media screen and (max-width: 768px) {
+    .studio-one-profile .profile-details{
+    margin-left: auto
+}
     .profile-photo{
         margin: auto;
         text-align: center;
@@ -126,7 +136,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Playfair Display", serif;
+  font-family: "Julius Sans One", serif;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -173,7 +183,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   padding: 0;
   font-weight: 400;
-  font-family: "Playfair Display", serif;
+  font-family: "Julius Sans One", serif;
 }
 .fh5co-nav #fh5co-logo a {
   margin-bottom: 0;
@@ -195,7 +205,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 1em 0 0 0;
 }
 .fh5co-nav ul li {
-  font-family: "Open Sans", arial, sans-serif;
+  font-family: 'Julius Sans One', serif;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -499,7 +509,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 10px;
   margin-top: 10px;
   color: rgba(255, 255, 255, 0.8);
-  font-family: "Open Sans", arial, sans-serif;
+  font-family: 'Julius Sans One', serif;
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 a {
   color: rgba(255, 255, 255, 0.8);
@@ -528,7 +538,7 @@ h1, h2, h3, h4, h5, h6, figure {
   line-height: 44px;
 }
 #fh5co-intro h2 span {
-  font-family: "Open Sans", arial, sans-serif !important;
+  font-family: 'Julius Sans One', serif; !important;
   font-size: 16px;
 }
 #fh5co-intro h2 span em {
@@ -678,7 +688,7 @@ input[type="text"] {
   margin-bottom: 30px;
 }
 .form-group .btn-modify {
-  font-family: "Playfair Display", serif;
+  font-family: "Julius Sans One", serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
@@ -723,7 +733,7 @@ input[type="text"] {
   margin-bottom: 20px;
   line-height: 1.5;
   font-weight: 700;
-  font-family: "Playfair Display", serif;
+  font-family: "Julius Sans One", serif;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #000;
@@ -833,7 +843,7 @@ input[type="text"] {
 #fh5co-offcanvas ul li.offcanvas-has-dropdown > a:after {
   position: absolute;
   right: 0px;
-  font-family: 'icomoon';
+  font-family: 'Julius Sans One', serif;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -1004,7 +1014,7 @@ input[type="text"] {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Open Sans", arial, sans-serif;
+  font-family: 'Julius Sans One', serif;
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 1px;
